@@ -1,0 +1,16 @@
+{
+  "name": "venom-snake",
+  "version": "0.0.1",
+  "description": "Dashboard for recent changes in Wikimedia wiki",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirill Maksimov <netoneko@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "^4.14.0",
+    "knex": "^0.12.6",
+    "mysql": "^2.12.0"
+  }
+}

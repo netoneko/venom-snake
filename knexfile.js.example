@@ -1,0 +1,15 @@
+module.exports = {
+  development: {
+    client: 'mysql',
+    connection: {
+        database: 'my_db',
+        user:     '',
+        password: '',
+        host: '127.0.0.1'
+      },
+      pool: {
+        min: 2,
+        max: 10
+      }
+    }
+};
